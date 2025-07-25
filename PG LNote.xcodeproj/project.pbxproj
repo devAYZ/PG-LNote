@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3ACAC76C2E336BC4007F7FAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3ACAC76B2E336BC4007F7FAA /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3ACAC74F2E336A2E007F7FAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		3ACAC7392E336A2A007F7FAA /* PG LNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PG LNote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACAC74E2E336A2E007F7FAA /* PG LNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PG LNoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACAC7582E336A2E007F7FAA /* PG LNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PG LNoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACAC76B2E336BC4007F7FAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		3ACAC7302E336A2A007F7FAA = {
 			isa = PBXGroup;
 			children = (
+				3ACAC76B2E336BC4007F7FAA /* README.md */,
 				3ACAC73B2E336A2A007F7FAA /* PG LNote */,
 				3ACAC7512E336A2E007F7FAA /* PG LNoteTests */,
 				3ACAC75B2E336A2E007F7FAA /* PG LNoteUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ACAC76C2E336BC4007F7FAA /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
