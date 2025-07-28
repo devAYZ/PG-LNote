@@ -69,7 +69,7 @@ struct DashboardView: View {
 struct HomeView: View {
     var body: some View {
         BaseBody(viewBgColor: GCAssets.Colors.backgroundGrey) {
-            Text("HomeView")
+            Text("Home View")
         }
         .padding()
         .background(GCAssets.Colors.backgroundGrey.swiftUIColor.opacity(0.7))
@@ -83,7 +83,7 @@ struct HomeView: View {
 struct WalletView: View {
     var body: some View {
         BaseBody(viewBgColor: GCAssets.Colors.backgroundGrey) {
-            Text("WalletView")
+            Text("Wallet View")
         }
         .padding()
         .background(GCAssets.Colors.backgroundGrey.swiftUIColor.opacity(0.7))
@@ -96,7 +96,7 @@ struct WalletView: View {
 struct MyAccountView: View {
     var body: some View {
         BaseBody(viewBgColor: GCAssets.Colors.backgroundGrey) {
-            Text("MyAccountView")
+            Text("My Account View")
         }
         .padding()
         .background(GCAssets.Colors.backgroundGrey.swiftUIColor.opacity(0.7))
