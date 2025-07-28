@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  GetCovaAssets
+
+  Created by Ayokunle Fatokimi on 17/01/2025.
+  
+*/
+
+// MARK: General
+"general.ok" = "Ok";
+"general.Okay" = "Okay";
+"general.yes" = "Yes";
+"general.next" = "Next";
+
+// MARK: Onboarding
+"getStarted" = "Get started";
+"onboarding.slideTabTitle1" = "Insurance Policy Management";
+"onboarding.slideTabTitle2" = "Effortless Claims Submission";
+"onboarding.slideTabTitle3" = "Secure and Private";
+
+//
+"loginToYourAcc" = "Login to your account";

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A8339C82E3751AA0048BD9F /* GetCovaAssets in Frameworks */ = {isa = PBXBuildFile; productRef = 3A8339C72E3751AA0048BD9F /* GetCovaAssets */; };
 		3ACAC76C2E336BC4007F7FAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3ACAC76B2E336BC4007F7FAA /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +35,25 @@
 		3ACAC76B2E336BC4007F7FAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3A8339C52E37519E0048BD9F /* Exceptions for "BasePackages" folder in "PG LNote" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				GetCovaAssets,
+			);
+			target = 3ACAC7382E336A2A007F7FAA /* PG LNote */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		3A8339C32E3751740048BD9F /* BasePackages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3A8339C52E37519E0048BD9F /* Exceptions for "BasePackages" folder in "PG LNote" target */,
+			);
+			path = BasePackages;
+			sourceTree = "<group>";
+		};
 		3ACAC73B2E336A2A007F7FAA /* PG LNote */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "PG LNote";
@@ -57,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8339C82E3751AA0048BD9F /* GetCovaAssets in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,13 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A8339C62E3751AA0048BD9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3ACAC7302E336A2A007F7FAA = {
 			isa = PBXGroup;
 			children = (
+				3A8339C32E3751740048BD9F /* BasePackages */,
 				3ACAC76B2E336BC4007F7FAA /* README.md */,
 				3ACAC73B2E336A2A007F7FAA /* PG LNote */,
 				3ACAC7512E336A2E007F7FAA /* PG LNoteTests */,
 				3ACAC75B2E336A2E007F7FAA /* PG LNoteUITests */,
+				3A8339C62E3751AA0048BD9F /* Frameworks */,
 				3ACAC73A2E336A2A007F7FAA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,10 +143,12 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				3A8339C32E3751740048BD9F /* BasePackages */,
 				3ACAC73B2E336A2A007F7FAA /* PG LNote */,
 			);
 			name = "PG LNote";
 			packageProductDependencies = (
+				3A8339C72E3751AA0048BD9F /* GetCovaAssets */,
 			);
 			productName = "PG LNote";
 			productReference = 3ACAC7392E336A2A007F7FAA /* PG LNote.app */;
@@ -571,6 +602,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A8339C72E3751AA0048BD9F /* GetCovaAssets */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GetCovaAssets;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3ACAC7312E336A2A007F7FAA /* Project object */;
 }
